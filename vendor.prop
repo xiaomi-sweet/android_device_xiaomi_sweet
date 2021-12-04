@@ -302,3 +302,6 @@ ro.vendor.product.device.db=OP_DEVICE
 ro.vendor.product.manufacturer.db=OP_PHONE
 vendor.product.device=OP_PHONE
 vendor.product.manufacturer=OPD
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
