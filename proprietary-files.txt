@@ -523,9 +523,9 @@ vendor/bin/qdcmss
 vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
 vendor/etc/hdr_config.cfg
 vendor/etc/init/qdcmss.rc
-vendor/etc/sdr_config.cfg
 vendor/etc/qdcm_calib_data_xiaomi_k6_38_0c_0a_fhd_dsc_video_dsi_panel.xml|63186d08ff6dace459719b4b7a28c37729fa34ed
 vendor/etc/qdcm_calib_data_xiaomi_k6_38_0e_0b_fhd_dsc_video_dsi_panel.xml|d996cd0fd8469f1019d3e92e57548eacd4174508
+vendor/etc/sdr_config.cfg
 vendor/lib64/hw/hwcomposer.sm6150.so
 vendor/lib64/libclient2slpi.notifier.so
 vendor/lib64/libdisp-aba.so
@@ -1229,10 +1229,16 @@ vendor/firmware/vehicle_plane_RTP.bin
 
 # Dolby - from 9R OOS 11.2.8.8
 system/lib64/vendor.dolby.hardware.dms@2.0.so|0a1cb972160890b07baf3a3e624e9ec1273befed
+system_ext/etc/permissions/privapp-com.dolby.daxappui.xml|fea56f21940f883c51a44a587343cb9092cb9086
+system_ext/etc/permissions/privapp-com.dolby.daxservice.xml|b8bf2367fb122bd0c670cac9b2102e4c11d48a63
+system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|962d7935679826dfca994e1d818598c857a6d63a
+system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|b30ea9a8783c42afeb5dd4824789f47189ed96d3
+system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|5424981ad37cf460344c2f7e34f2e964798cf24b
 -system_ext/priv-app/DaxUI/DaxUI.apk|89e8ceabb19458b872eed0560a627eb2ff4c4dc4
 -system_ext/priv-app/daxService/daxService.apk|ed1de719afc7181a7e896e0eeaf14edc00761c21
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|84247a3563b362e97dacaa79d4845c1292a92f13
 vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/media_codecs_dolby_audio.xml|e4673b108b6165f73572681f7fd0534179c46a54
 vendor/lib/libdapparamstorage.so|6c488c6bc88abe13c6fd689124475526c1cf41b8
 vendor/lib/libdeccfg.so|28b3aa2368d091b50ef7d5f3c3d44466a89172f8
 vendor/lib/libqtigef.so|ef2f0eefe3b8b5e4d4bc559656de8c58cc461c01
