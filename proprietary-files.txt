@@ -524,6 +524,8 @@ vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
 vendor/etc/hdr_config.cfg
 vendor/etc/init/qdcmss.rc
 vendor/etc/sdr_config.cfg
+vendor/etc/qdcm_calib_data_xiaomi_k6_38_0c_0a_fhd_dsc_video_dsi_panel.xml|63186d08ff6dace459719b4b7a28c37729fa34ed
+vendor/etc/qdcm_calib_data_xiaomi_k6_38_0e_0b_fhd_dsc_video_dsi_panel.xml|d996cd0fd8469f1019d3e92e57548eacd4174508
 vendor/lib64/hw/hwcomposer.sm6150.so
 vendor/lib64/libclient2slpi.notifier.so
 vendor/lib64/libdisp-aba.so
