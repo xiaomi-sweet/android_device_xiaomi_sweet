@@ -790,6 +790,8 @@ vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/seccomp_policy/codec2.vendor.base.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext.policy
+vendor/etc/seccomp_policy/mediaextractor.policy|d533d305525d693cf80c92a0d17e28574ed4792a
+vendor/etc/seccomp_policy/mediaswcodec.policy|ede85b7f5918d8c48598fd90e3007d66f6b96967
 -vendor/lib/libAlacSwDec.so
 -vendor/lib/libApeSwDec.so
 -vendor/lib/libMpeg4SwEncoder.so
