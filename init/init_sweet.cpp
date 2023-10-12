@@ -110,7 +110,6 @@ void vendor_load_properties() {
             }
     }
 
-    set_ro_build_prop("fingerprint", fingerprint);
     set_ro_product_prop("device", device);
     set_ro_product_prop("model", model);
     if (mod_device != "") {
